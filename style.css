@@ -6,6 +6,13 @@ body {
   color: #505962;
 }
 
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
 /*-- Navigation --*/
 .navbar {
   text-transform: uppercase;
@@ -96,4 +103,25 @@ body {
 .btn-secondary:hover {
   background-color: #189582;
   border-color: #189582;
+}
+
+/*-- Feature section --*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: green;
+  margin: 0 auto 2rem;
 }
